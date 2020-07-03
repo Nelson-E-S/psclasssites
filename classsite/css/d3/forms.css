@@ -1,0 +1,33 @@
+html, body{
+    display: flex;
+    justify-content: center;
+}
+form {
+    max-width: 450px;
+    padding: 15px;
+    background-color:lavender;
+    font-style: italic;
+    border-style: solid;
+    font-weight: 900px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.formBody{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.name, .other{
+    flex: 1 0;
+}
+.formFooter{
+    padding-top: 10px;
+}
+input[type=submit]:hover{
+    background-color: lightblue;
+}
+input[type=text]:focus{
+    background-color: greenyellow;
+}
+input[type=text]:hover{
+    background-color: lightgreen;
+}

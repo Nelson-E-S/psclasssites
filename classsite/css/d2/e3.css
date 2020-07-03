@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+h1 {
+    font-size: 30pt;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    margin: 400px;
+}
+h2 {
+    font-size: 30pt;
+    text-align: center;
+    color:red;
+    text-transform: uppercase;
+}
+.para{
+    background: url('../../images/d2/forest1.jpg') 100% fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parainner{
+    padding: 400px;
+}

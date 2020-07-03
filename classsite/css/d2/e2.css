@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-decoration: underline;
+}
+#subtitle{
+    font-style: italic;
+    text-decoration: none;
+}
+.article{
+    font-family: Georgia, serif;
+}
+#secondPara{
+    letter-spacing: 0.3em;
+}
+h1,h4,p{
+    padding-top: 10px;
+    border-bottom: solid;
+    border-color: green;
+    width: 500px;
+    margin: auto;
+}

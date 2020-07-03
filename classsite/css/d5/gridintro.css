@@ -1,0 +1,46 @@
+ .parent1{
+    display: grid;
+    grid-template-columns: 150px 150px 80px;
+    grid-template-rows: 100px auto;
+    grid-gap: 10px 15px;
+    background: green;
+}
+
+.childs{
+    text-align: center;
+    justify-content: center;
+    border-radius: 40%;
+    border: solid;
+    border-color: yellow;
+    background: lime;
+    color: yellow;
+    font-weight: bolder;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas: 
+        "header header header"
+        "nav blog blog"
+        "nav blog blog"
+        "footer footer footer";
+}
+.child{
+    background: red;
+    border: solid white;
+    color: white;
+}
+.parent > .header{
+    grid-area: header;
+}
+.parent > .nav{
+    grid-area: nav;
+}
+.parent > .blog{
+    grid-area: blog;
+}
+.parent > .footer{
+    grid-area: footer;
+}

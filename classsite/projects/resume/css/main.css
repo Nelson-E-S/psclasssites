@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*for testing*/
+div, p, ul {
+    border: solid 1px;
+}
+html, body{
+    display: flex;
+    justify-content: center;
+}
+.skill{
+    list-style: none;
+}
+.wrapper{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+.profile{
+    display: flex;
+}
+.profileContent{
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.profileContact{
+    flex: 1 0;
+}
+.profileMotto{
+    flex: 1 0;
+}
+.schoolExp, .workExp{
+    display: flex;
+    flex-direction: column;
+}
+.workExp:hover .workExpContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.schoolExp:hover .schoolExpContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.schoolExpContainer, .workExpContainer{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    display: none;
+}
+
+.schoolExpContent1, .workExpContent1{
+    flex: 1 0;
+}
+.schoolExpContent2, .workExpContent2{
+    flex: 1 0;
+}
+.schoolExpContent3, .workExpContent3{
+    flex: 1 0;
+}

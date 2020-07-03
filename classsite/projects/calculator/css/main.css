@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+table {
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+td {
+    border: solid 10px;
+    border-color:lightblue;
+    text-align: center;
+    background-color: skyblue;
+}
+input{
+    background-color: skyblue;
+    color: darkcyan;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+}
+input:hover{
+    background-color: lightblue;
+}
+td, input {
+    border-radius: 50%;
+}
+#display{
+    width: auto;
+    text-justify: right;
+}
+#display:hover{
+    background-color: skyblue;
+}

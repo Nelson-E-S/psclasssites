@@ -1,0 +1,20 @@
+.homeNav {
+    color: coral;
+    background-color: darkblue;
+    width: 75px;
+    text-align: right;
+    border-radius: 10px 25px;
+    padding-right: 10px;
+    position: fixed;
+    top:0;
+    left: -20px;
+    line-height: 1.1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.homeNav:hover{
+    background-color: blue;
+    cursor: pointer;
+    left: -10px;
+}

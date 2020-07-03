@@ -1,0 +1,32 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background:lightcyan;
+    animation: myframes 2s ease-in-out 0s infinite;
+}
+@keyframes myframes{
+    0%{
+        background:lightcyan;
+        width: 300px;
+        border-radius: 20px 0;
+    }
+
+    33%{
+        background: lightblue;
+        width: 400px;
+        border-radius: 60px 0;
+    }
+    50%, 80%{
+        background: lightskyblue;
+        height: 600px;
+        width: 400px;
+        border-radius: 100px 0;
+    }
+
+    100%{
+        background:lightcyan;
+        width: 300px;
+        height: 300px;
+        border-radius: 20px 0;
+    }
+}

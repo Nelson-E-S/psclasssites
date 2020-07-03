@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+}
+.nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: yellow;
+    animation: navStretch 3s ease-out 0s 1;
+}
+.navItem{
+    flex: 1 0 auto;
+    background: greenyellow;
+    width: 20vw;
+    text-align: center;
+}
+.navItem:hover{
+    font-weight: bold;
+}
+@keyframes navStretch{
+    0%{
+        width: 20vw;
+    }
+    33%{
+        width: 30vw;
+    }
+    66%{
+        width: 60vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}

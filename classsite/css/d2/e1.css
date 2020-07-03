@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.button1 {
+    color: coral;
+    background-color: darkblue;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 25px;
+    padding: 1px 0;
+    display: inline-block;
+}
+
+.button1:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.button2 {
+    color: coral;
+    background-color: lightblue;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 25px;
+    padding: 1px 0;
+    display: inline-block;
+}
+.button2:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.highlighter{
+    color: brown;
+}
