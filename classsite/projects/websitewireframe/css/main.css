@@ -14,7 +14,7 @@ html, body{
 }
 /*Common elements*/
 hr {
-    width: 50px;
+    width: 40px;
     height: 2px;
     background: red;
 }
@@ -22,8 +22,10 @@ header, article, footer{
     width: 1000px;
 }
 article{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 article h5{
     font-style: italic;
@@ -42,7 +44,9 @@ article hr {
     margin-right: 30px;
 }
 .quote p {
+    font-size: 10pt;
     font-style: italic;
+    color: grey;
 }
 .quote .from{
     display: flex;
@@ -56,14 +60,15 @@ header {
     flex-flow: column nowrap;
     align-items: center;
 
-    margin-bottom: 100px;
+    background: linear-gradient(0deg, rgba(252,227,138,1) 0%, rgba(120,70,70,1) 100%);
+    color: white;
 }
 header h2{
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 header hr{
-    /*background: white;*/
+    background: white;
     margin: 20px;
 }
 header span{
@@ -71,7 +76,7 @@ header span{
     padding: 1px;
     padding-left: 15px;
     padding-right: 15px;
-
+    margin-bottom: 50px;
     font-weight: bold;
 }
 /*nav*/
@@ -93,7 +98,6 @@ li {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-
 }
 #a1 .reel{
     display: flex;
@@ -107,17 +111,30 @@ li {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+#a1 p{
+    color: grey;
+    font-size: 10pt;
+}
 /*article 2*/
 #a2{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    background: #95e1d3;
+    padding: 0;
 }
 #a2 .fact{
     text-align: center;
 
     padding: 10px;
     border: solid;
+    border-width: thin;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+    color: white;
+    background: #95e1d3;
+
     width: 125px;
 }
 .fact h1{
@@ -151,6 +168,8 @@ li {
 }
 .servicebox p{
     margin-top: 5px;
+    color: grey;
+    font-size: 10pt;
 }
 #a3 .serviceSep{
     background: lightgrey;
@@ -161,9 +180,11 @@ li {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+
+    background: lightgrey;
 }
 #a4 .quote{
-    width: 500px;
+    width: 600px;
 }
 #a4 hr{
     margin: 0;
@@ -173,9 +194,11 @@ li {
 .from span{
     font-style: italic;
     font-size: 13pt;
+    font-weight: bold;
 }
 /*article 5*/
 #a5 {
+
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -201,6 +224,7 @@ li {
     margin-top: 8px;
 }
 .names em{
+    color: lightgrey;
     font-size: 8pt;
 }
 /*article 6*/
@@ -208,6 +232,7 @@ li {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    background: lightgrey;
 }
 #a6 img{
     height: 100px;
@@ -232,6 +257,7 @@ li {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    background: lightgrey;
 }
 #a8 .clients{
     display: grid;
@@ -262,6 +288,9 @@ footer .final{
     height: 50px;
     width: 200px;
 }
+.summary p {
+    color: grey;
+}
 .summary p, .summary em{
     font-size: 10pt;
 }
@@ -276,6 +305,7 @@ footer .final{
     margin-bottom: 10px;
 }
 .summary .follow{
+    color: grey;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -316,6 +346,11 @@ footer .final{
 .blogs div{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.blogs div span{
+    color: grey;
+    font-size: 8pt;
+    font-style: italic;
 }
 .final .instagram{
     width: 300px;
