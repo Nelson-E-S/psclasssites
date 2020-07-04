@@ -140,3 +140,34 @@ li {
     background: grey;
     width: 600px;
 }
+/*article 4*/
+#a4{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#a4 .quote{
+    width: 500px;
+}
+.quote img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.quote .from{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+#a4 hr{
+    margin: 0;
+    margin-right: 5px;
+    align-self: space-between;  
+}
+.from span{
+    font-style: italic;
+    font-size: 13pt;
+}
