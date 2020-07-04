@@ -91,3 +91,22 @@ li {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+/*article 2*/
+#a2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#a2 .fact{
+    text-align: center;
+
+    padding: 10px;
+    border: solid;
+    width: 125px;
+}
+.fact h1{
+    font-size: 50pt;
+}
+.fact p{
+    font-size: 8pt;
+}
