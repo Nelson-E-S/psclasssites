@@ -66,7 +66,7 @@ nav ul{
     flex-flow: row nowrap;
     justify-content: flex-end;
     
-    width: 100vw;
+    width: 800px;
 }
 li {
     padding: 10px;
@@ -137,7 +137,7 @@ li {
     margin-top: 5px;
 }
 #a3 .serviceSep{
-    background: grey;
+    background: lightgrey;
     width: 600px;
 }
 /*article 4*/
@@ -170,4 +170,33 @@ li {
 .from span{
     font-style: italic;
     font-size: 13pt;
+}
+/*article 5*/
+#a5 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#a5 .personnel{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin: 50px;
+}
+.names{
+    text-align: center;
+}
+.names img{
+    height: 275px;
+    width: 200px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.names h6{
+    font-size: 10pt;
+    margin-top: 8px;
+}
+.names em{
+    font-size: 8pt;
 }
