@@ -17,8 +17,20 @@ hr {
     height: 2px;
     background: red;
 }
+article{
+    width: 100vw;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 article h5{
     font-style: italic;
+}
+article h5, article h4{
+    margin: 5px;
+}
+article hr {
+    margin: 15px;
 }
 /*header*/
 header {
@@ -59,4 +71,21 @@ nav ul{
 li {
     padding: 10px;
     margin: 10px;
+}
+/*article 1*/
+#a1 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#a1 .reel{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+    margin: 40px;
+}
+.reel img{
+    height: 150px;
+    width: 200px;
 }
