@@ -110,3 +110,33 @@ li {
 .fact p{
     font-size: 8pt;
 }
+/*article 3*/
+#a3{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#a3 .service{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin: 10px;
+    width: 800px;
+}
+.service .servicebox{
+    width: 200px;
+}
+.servicebox img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin: 10px;
+}
+.servicebox p{
+    margin-top: 5px;
+}
+#a3 .serviceSep{
+    background: grey;
+    width: 600px;
+}
