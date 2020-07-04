@@ -227,3 +227,14 @@ li {
     width: 600px;
     margin: 50px;
 }
+/*article 8*/
+#a8 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#a8 .clients{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 120px 120px;
+}
