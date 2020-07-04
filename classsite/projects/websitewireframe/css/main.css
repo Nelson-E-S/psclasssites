@@ -32,6 +32,22 @@ article h5, article h4{
 article hr {
     margin: 15px;
 }
+.quote img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.quote p {
+    font-style: italic;
+}
+.quote .from{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+}
 /*header*/
 header {
     display: flex;
@@ -149,19 +165,6 @@ li {
 #a4 .quote{
     width: 500px;
 }
-.quote img{
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.quote .from{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: baseline;
-    justify-content: flex-start;
-}
 #a4 hr{
     margin: 0;
     margin-right: 5px;
@@ -213,4 +216,14 @@ li {
     margin: 10px;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+/*article 7*/
+#a7 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#a7 .quote{
+    width: 600px;
+    margin: 50px;
 }
