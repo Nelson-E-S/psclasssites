@@ -1,0 +1,62 @@
+/*Default*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body{
+    display: flex;
+    flex-flow: column nowrap;
+
+    width: 100vw;
+}
+/*Common elements*/
+hr {
+    width: 50px;
+    height: 2px;
+    background: red;
+}
+article h5{
+    font-style: italic;
+}
+/*header*/
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+    width: 100vw;
+
+    margin-bottom: 100px;
+}
+header h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+header hr{
+    /*background: white;*/
+    margin: 20px;
+}
+header span{
+    border: solid;
+    padding: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-weight: bold;
+}
+/*nav*/
+nav ul{
+    list-style: none;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    
+    width: 100vw;
+}
+li {
+    padding: 10px;
+    margin: 10px;
+}
