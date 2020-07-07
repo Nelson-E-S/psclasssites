@@ -1,0 +1,16 @@
+html, body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.imageSet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+form{
+    margin: 10px;
+}
+input[type=submit]{
+    margin-top: 5px;
+}
