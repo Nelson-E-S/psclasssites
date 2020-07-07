@@ -14,3 +14,11 @@ const findY = () => {
 const findZ = () => {
     zElem.innerHTML = z;
 }
+const resetXYZ = () => {
+    x = rnd();
+    y = rnd();
+    z = rnd();
+    xElem.innerHTML = x;
+    yElem.innerHTML = '?';
+    zElem.innerHTML = '?';
+}
