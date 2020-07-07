@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+button{
+    height: 25px;
+    width: 150px;
+    margin: 25px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+#sun{
+    background: linear-gradient(orange 65%, yellow);
+    border: solid orange;
+    border-bottom: yellow;
+    border-width: 1px;
+}
+#sun:hover{
+    background: linear-gradient(orange 75%, yellow);
+    color: red;
+}
+#sun:active{
+    background: linear-gradient(orange 85%, yellow);
+}
+#moon{
+    background: linear-gradient(white 65%, black);
+    border: solid black;
+    border-top: white;
+    border-width: 1px;
+}
+#moon:hover{
+    background: linear-gradient(white 75%, black);
+}
+#moon:active{
+    background: linear-gradient(white 85%, black);
+}
+button:focus{
+    outline:none;
+    box-shadow: none;
+}
+img{
+    height: 350px;
+    width: 600px;
+}
