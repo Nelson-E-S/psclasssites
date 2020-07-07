@@ -18,10 +18,10 @@ button{
     height: 25px;
     width: 200px;
     border-radius: 10px;
-    background: grey;
+    background: linear-gradient(white, grey);
 }
 button:hover{
-    background: linear-gradient(white, grey);
+    background: linear-gradient(grey, white);
 }
 .highlight{
     color: green;
