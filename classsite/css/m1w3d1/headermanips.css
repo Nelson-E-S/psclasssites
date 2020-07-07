@@ -21,7 +21,10 @@ button{
     background: linear-gradient(white, grey);
 }
 button:hover{
-    background: linear-gradient(grey, white);
+    background: linear-gradient(white, grey 90%);
+}
+button:active{
+    background: grey;
 }
 .highlight{
     color: green;
