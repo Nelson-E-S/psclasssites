@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 1</title>
+    <link rel="stylesheet" type="text/css" href="../../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../../css/m1w3d3/e2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="../../index.html" class="homeNav">Home</a>
+    <br><br>
+    <form name="Calc">
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" name="Input" placeholder="0"></td>
+                <td><input type="button" name="clear" value="C" onclick="Calc.Input.value=''"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="seven" value="7" onclick="Calc.Input.value+='7'"></td>
+                <td><input type="button" name="eight" value="8" onclick="Calc.Input.value+='8'"></td>
+                <td><input type="button" name="nine" value="9" onclick="Calc.Input.value+='9'"></td>
+                <td><input type="button" name="slash" value="/" onclick="Calc.Input.value+='/'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="four" value="4" onclick="Calc.Input.value+='4'"></td>
+                <td><input type="button" name="five" value="5" onclick="Calc.Input.value+='5'"></td>
+                <td><input type="button" name="six" value="6" onclick="Calc.Input.value+='6'"></td>
+                <td><input type="button" name="minus" value="-" onclick="Calc.Input.value+='-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="one" value="1" onclick="Calc.Input.value+='1'"></td>
+                <td><input type="button" name="two" value="2" onclick="Calc.Input.value+='2'"></td>
+                <td><input type="button" name="three" value="3" onclick="Calc.Input.value+='3'"></td>
+                <td><input type="button" name="plus" value="+" onclick="Calc.Input.value+='+'"></td>
+            </tr>
+                <td><input type="button" name="period" value="." onclick="Calc.Input.value+='.'"></td>
+                <td><input type="button" name="zero" value="0" onclick="Calc.Input.value+='0'"></td>
+                <td><input type="button" name="equal" value="=" onclick="Calc.Input.value=eval(Calc.Input.value)"></td>
+                <td><input type="button" name="multiply" value="*" onclick="Calc.Input.value+='*'"></td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+<script type="text/javascript" src="../../jscript/m1w3d3/e2.js"></script>
+</html>
