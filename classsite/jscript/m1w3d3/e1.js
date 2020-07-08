@@ -5,10 +5,10 @@ const oper = document.getElementById('oper');
 const ans = document.getElementById('answer');
 
 /*math functions*/
-const add = (x, y) => {return x + y;};
-const sub = (x, y) => {return x - y;};
-const quo = (x, y) => {return x / y;};
-const mul = (x, y) => {return x * y;};
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;
+const quo = (x, y) => x / y;
+const mul = (x, y) => x * y;
 
 /*excercise vars*/
 let a = 0;
