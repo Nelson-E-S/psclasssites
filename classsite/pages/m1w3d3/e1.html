@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 1</title>
+    <link rel="stylesheet" type="text/css" href="../../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../../css/m1w3d3/e1.css">
+</head>
+<body>
+    <a href="../../index.html" class="homeNav">Home</a>
+    <br><br>
+    <div id="input">
+        <label for="num1">Number 1:</label>
+        <input type="text" placeholder="0-9" id="num1">
+        <label for="num2">Number 2:</label>
+        <input type="text" placeholder="0-9" id="num2">
+    </div>
+    <div id="buttons">
+        <div id="operators">
+            <button onclick="doAdd()">+</button>
+            <button onclick="doSub()">-</button>
+            <button onclick="doQuo()">/</button>
+            <button onclick="doMul()">*</button>
+        </div>
+        <button onclick="doClear()">C</button>
+    </div>
+    <div id="output">The <span id="oper">blank</span> of the numbers is: <span id="answer">blank</span></div>
+</body>
+<script type="text/javascript" src="../../jscript/m1w3d3/e1.js"></script>
+</html>

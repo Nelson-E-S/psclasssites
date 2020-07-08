@@ -1,0 +1,26 @@
+#input{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 1fr 1fr;
+}
+#operators{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+}
+button{
+    font-size: 14pt;
+    font-weight: bold;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: 100px 50px;
+}
+
+#input, #output{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#oper, #answer{
+    text-decoration: underline;
+}
