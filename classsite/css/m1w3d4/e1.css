@@ -1,0 +1,13 @@
+html, body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.box{
+    border: solid black;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
