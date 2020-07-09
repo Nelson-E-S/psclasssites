@@ -10,3 +10,13 @@ for (car in cars){
 print('');
 for(car of cars)
     print(car);
+
+print('');
+/**Exercise 1*/
+var dishes = [
+    {name:"mac & cheese", price:5},{name:"salad",price:3}
+];
+for(dish in dishes){
+    dish = dishes[dish];
+    print(`Dish Name: ${dish.name}\n   Dishp rice: $${dish.price}`);
+}
