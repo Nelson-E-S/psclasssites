@@ -20,3 +20,15 @@ for(dish in dishes){
     dish = dishes[dish];
     print(`Dish Name: ${dish.name}\n   Dishp rice: $${dish.price}`);
 }
+print('');
+let spaceship = {
+    location: 'Earth',
+    launch: function()
+    {
+        this.location = "Outer Space";
+    }
+};
+print(`Your location: ${spaceship.location}`);
+print(`Launching spaceship...`);
+spaceship.launch();
+print(`Your location: ${spaceship.location}`);
