@@ -22,11 +22,12 @@ for(dish in dishes){
 }
 print('');
 let spaceship = {
-    location: 'Earth',
+    location: "Earth",
     launch: function(){
         this.location = "Outer Space";
     },
     flyTo: function(loc){
+        print(loc)
         this.location = loc;
     }
 };
