@@ -27,7 +27,6 @@ let spaceship = {
         this.location = "Outer Space";
     },
     flyTo: function(loc){
-        print(loc)
         this.location = loc;
     }
 };
@@ -39,5 +38,5 @@ print(`Your location: ${spaceship.location}`);
 print('');
 print("Lets go to Mars!");
 spaceship.flyTo("Mars");
-spaceship.launch();
+print(`Launching spaceship...`);
 print(`Your location: ${spaceship.location}`);
