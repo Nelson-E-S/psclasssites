@@ -138,3 +138,23 @@ let currentTime = setInterval(()=>{
     if (count === iterations)
         clearInterval(currentTime);
 },1000)
+
+/**9. Write a JavaScript program to calculate the area and perimeter of a circle. Go to the editor
+Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user. */
+const circle = {
+    radius: 0,
+    getRadius: function(){
+        return this.radius;
+    },
+    setRadius: function(r){
+        this.radius = r;
+    },
+    getCircumference: function(){
+        return 2 * Math.PI * this.getRadius();
+    },
+    getArea: function(){
+        return Math.PI * Math.pow(this.getRadius(), 2);
+    }
+}
+circle.setRadius(5);
+print(`Circle radius:${circle.getRadius()}\nCircumference: ${circle.getCircumference()}\nArea: ${circle.getArea()}`);
